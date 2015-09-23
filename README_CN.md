@@ -6,20 +6,22 @@
 
 已在版本 `Alpha Steam 5.4, OSXPlayer` 中测试
 
-* [ ] UI.xml
+* [x] UI.xml
 	* [x] 所有用户界面的 标题/主要按钮名字/主要按钮详解
-	* [ ] 所有零碎的翻译
-* [ ] Furniture.xml
+	* [x] 所有零碎的翻译
+* [x] Furniture.xml
 	* [x] 所有家具名
-	* [ ] 所有家具的介绍
+	* [x] 所有家具的介绍
 * [x] Software.xml
 	* [x] 所有软件创作时的选项名
 	* [x] 所有软件创作时的选项介绍
+* [ ] Alpha 校对
+* [ ] Beta 校对
 
 有些没有翻译么? 是的，不是所有的文字都能够翻译.
 
 所以我打算翻译完当前这一版后就发邮件请开发者增加更多可翻译的文字.
-	
+
 ## 安装
 
 把 `Simplified Chinese` 文件夹放到游戏主目录的 `Localization` 文件夹下。
@@ -49,7 +51,7 @@
 
 ## 那么我在哪里可以 "下载" 到这款游戏
 
-你可以在 [Steam](http://store.steampowered.com/app/362620/) 购买. 
+你可以在 [Steam](http://store.steampowered.com/app/362620/) 购买.
 
 去 [官方网站](http://softwareinc.coredumping.com/) 可以看到更多信息
 

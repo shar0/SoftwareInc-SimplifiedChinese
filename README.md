@@ -6,20 +6,22 @@ I need tell you true, "Software Inc." is a Video Game.
 
 Tested in `Alpha Steam 5.4, OSXPlayer`
 
-* [ ] UI.xml
+* [x] UI.xml
 	* [x] All user interface's Title/Main Button name/Main Button Description
-	* [ ] All stuff
-* [ ] Furniture.xml
+	* [x] All stuff
+* [x] Furniture.xml
 	* [x] All furniture's name
-	* [ ] All furniture's description
+	* [x] All furniture's description
 * [x] Software.xml
 	* [x] All software creation options name
 	* [x] All software creation options description
+* [ ] Alpha Check
+* [ ] Beta Check
 
 Is something missed? Yes, not all string got listed in files.
 
 So when i finish this translate i'll send mail to game's developer to request more translatable string.
-	
+
 ## Installation
 
 Put `Simplified Chinese` folder to the sub-folder `Localization` on your game main folder.
@@ -39,7 +41,7 @@ It's look like:
 
 ## So where could "Download" this game?
 
-You can buy it on [Steam](http://store.steampowered.com/app/362620/). 
+You can buy it on [Steam](http://store.steampowered.com/app/362620/).
 
 Find out more information in [Official Website](http://softwareinc.coredumping.com/)
 
@@ -54,4 +56,4 @@ Follow/Circle me on:
 
 ## Any question?
 
-Just create new issue on [Github Issue](https://github.com/TomomiSawako/SoftwareInc-SimplifiedChinese/issues) 
+Just create new issue on [Github Issue](https://github.com/TomomiSawako/SoftwareInc-SimplifiedChinese/issues)

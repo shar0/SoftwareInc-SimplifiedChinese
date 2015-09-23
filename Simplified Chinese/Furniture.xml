@@ -37,15 +37,15 @@
 	</Furniture>
 	<Furniture Name="Modern Computer">
 		<Name>现代电脑</Name>
-		<Description>Modern computer for all your modern computer needs</Description>
+		<Description>现代电脑来满足你对电脑的一切时尚需求</Description>
 	</Furniture>
 	<Furniture Name="HoloComputer">
 		<Name>全息电脑</Name>
-		<Description>Welcome to the future! Where everything is a little less convenient</Description>
+		<Description>欢迎来到未来！虽然每一件事都有点不太方便</Description>
 	</Furniture>
 	<Furniture Name="Lamp">
 		<Name>灯</Name>
-		<Description>Make sure your employees can see when they are working late or if you can't be bothered placing windows</Description>
+		<Description>确保你的员工可以在工作很晚时有灯光，或者你在布局窗户时遇到了麻烦时可以用灯光</Description>
 	</Furniture>
 	<Furniture Name="Wall Lamp">
 		<Name>壁灯</Name>
@@ -65,15 +65,15 @@
 	</Furniture>
 	<Furniture Name="Instant Coffee">
 		<Name>速溶咖啡机</Name>
-		<Description>You soak some brown powder in hot water and I guess you feel less tired at some point?</Description>
+		<Description>你在热水里泡了一些棕色的粉末，我想你现在不会在某些时候感觉发困了吧?</Description>
 	</Furniture>
 	<Furniture Name="Coffee">
 		<Name>咖啡机</Name>
-		<Description>Your standard ground coffee machine</Description>
+		<Description>你的标准咖啡磨粉机</Description>
 	</Furniture>
 	<Furniture Name="Espresso Machine">
 		<Name>浓缩咖啡机</Name>
-		<Description>Delivers high quality coffee by being noisy and consuming large amounts of water, electricity and maintenance</Description>
+		<Description>通过噪音、大量的水、更多的电量和人力维护来提供高质量咖啡</Description>
 	</Furniture>
 	<Furniture Name="Toilet">
 		<Name>厕所</Name>
@@ -81,7 +81,7 @@
 	</Furniture>
 	<Furniture Name="Painting">
 		<Name>油画</Name>
-		<Description>A corny painting to liven up the office</Description>
+		<Description>用一张老掉牙的画来提升办公室的逼格</Description>
 	</Furniture>
 	<Furniture Name="TV">
 		<Name>电视</Name>
@@ -92,28 +92,28 @@
 		<Description>读书助你成功</Description>
 	</Furniture>
 	<Furniture Name="Floor Plant">
-		<Name>花朵盆栽</Name>
-		<Description>A charming floor plant</Description>
+		<Name>置地盆景</Name>
+		<Description>一颗迷人的置地盆景</Description>
 	</Furniture>
 	<Furniture Name="Table Plant">
 		<Name>桌上盆栽</Name>
-		<Description>Low-poly bonsai tree</Description>
+		<Description>低矮的盆栽树</Description>
 	</Furniture>
 	<Furniture Name="Big Plant">
 		<Name>大型盆栽</Name>
-		<Description>Takes up a lot of space, but employees agree that it makes up for it by looking nice</Description>
+		<Description>虽然占用了大量空间，但员工们依然因它看起来很棒而接受它</Description>
 	</Furniture>
 	<Furniture Name="Clock">
 		<Name>时钟</Name>
-		<Description>Time machine!(Not an actual time machine)</Description>
+		<Description>时间机器!(但并不是指时间guang机器)</Description>
 	</Furniture>
 	<Furniture Name="Small Server">
 		<Name>小型服务器</Name>
-		<Description>A normal computer, but with more internet</Description>
+		<Description>一台普通的电脑，但它可以更好联网</Description>
 	</Furniture>
 	<Furniture Name="Tower Server">
 		<Name>塔式服务器</Name>
-		<Description>A high performance tower(Not an actual tower)</Description>
+		<Description>一台高性能的塔(但并不是一座塔)</Description>
 	</Furniture>
 	<Furniture Name="Server Rack">
 		<Name>服务器机架</Name>
@@ -121,27 +121,26 @@
 	</Furniture>
 	<Segment Name="Wall">
 		<Name>墙壁</Name>
-		<Description>Use this to remove windows and doors</Description>
+		<Description>用这个来消除门、窗</Description>
 	</Segment>
 	<Segment Name="Standard door">
 		<Name>普通门</Name>
-		<Description>It's a door...</Description>
+		<Description>这是 M·E·N - 门...</Description>
 	</Segment>
 	<Segment Name="Sliding glass door">
 		<Name>可滑动玻璃门</Name>
-		<Description>Door that doubles as a window</Description>
+		<Description>一扇两面都是窗户的门</Description>
 	</Segment>
 	<Segment Name="Elevator">
 		<Name>电梯</Name>
-		<Description>Place elevators on top of each other to connect rooms on different floors</Description>
+		<Description>放置电梯，并在不同楼层的其顶部放置新的电梯来连接不同楼层间的房间</Description>
 	</Segment>
 	<Segment Name="Small window">
 		<Name>小型窗户</Name>
-		<Description>Completely useless if placed between rooms</Description>
+		<Description>如果在房间与房间的间隔墙上放置，它将会毫无用途</Description>
 	</Segment>
 	<Segment Name="Large window">
 		<Name>大型窗户</Name>
-		<Description>If you want even more window</Description>
+		<Description>如果你想要一个更大的窗户</Description>
 	</Segment>
 </Furniture>
-

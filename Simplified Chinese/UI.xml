@@ -60,8 +60,8 @@
 		<Item Name="MainDevSoftDesc">开发并发布属于你自己的软件</Item>
 		<Item Name="MainPlayerRelease">你的发布历史</Item>
 		<Item Name="MainPlayerReleaseDesc">查看你的产品列表</Item>
-		<Item Name="MainContract">外包工作</Item>
-		<Item Name="MainContractDesc">开始接外包工作. 开发软件是昂贵的，接点外包工作可以更容易的赚到一些资金</Item>
+		<Item Name="MainContract">外包合同</Item>
+		<Item Name="MainContractDesc">开始接外包合同. 开发软件是昂贵的，接点外包工作可以更容易的赚到一些资金</Item>
 		<Item Name="MainServer">服务器</Item>
 		<Item Name="MainServerDesc">管理你的服务器和再委托流程</Item>
 		<Item Name="MainEmployees">管理员工</Item>
@@ -116,7 +116,7 @@
 		<Item Name="Team">团队</Item>
 		<Item Name="Salary">薪水</Item>
 		<Item Name="Effectiveness">工作效能</Item>
-		<Item Name="Team Compatibility">团队适应度</Item>
+		<Item Name="Team Compatibility">团队协调性</Item>
 		<Item Name="Satisfaction">满足度</Item>
 		<Item Name="Aptitude">资质</Item>
 		<Item Name="Leadership">领导力</Item>
@@ -140,7 +140,7 @@
 		<Item Name="Market">市场</Item>
 		<Item Name="Details">详情</Item>
 		<Item Name="Worth">价值</Item>
-		<Item Name="Reputation">评价</Item>
+		<Item Name="Reputation">名声</Item>
 		<Item Name="Bankrupt">破产</Item>
 		<Item Name="Founded">成立日</Item>
 		<Item Name="Products">产品</Item>
@@ -155,9 +155,9 @@
 		<Item Name="Sell">抛售</Item>
 		<Item Name="Buy">购入</Item>
 		<Item Name="Count">数额</Item>
-		<Item Name="Compatibility">兼容性</Item>
+		<Item Name="Compatibility">协调性</Item>
 		<Item Name="Work">工作量</Item>
-		<Item Name="Employees">雇员数</Item>
+		<Item Name="Employees">员工数</Item>
 		<Item Name="Arrival">抵达</Item>
 		<Item Name="+">+</Item>
 		<Item Name="-">-</Item>
@@ -168,7 +168,7 @@
 		<Item Name="Dismiss">解雇</Item>
 		<Item Name="Tier">阶层</Item>
 		<Item Name="Progress">进度</Item>
-		<Item Name="Contract">外包</Item>
+		<Item Name="Contract">外包合同</Item>
 		<Item Name="Months">月数</Item>
 		<Item Name="Income">入账</Item>
 		<Item Name="Total">总共</Item>
@@ -183,7 +183,7 @@
 		<Item Name="Date">日期</Item>
 		<Item Name="Money">资金</Item>
 		<Item Name="Products">产品数</Item>
-		<Item Name="Employees">雇员数</Item>
+		<Item Name="Employees">员工数</Item>
 		<Item Name="Enabled">开启</Item>
 		<Item Name="Toggle">切换</Item>
 		<Item Name="Active">可用</Item>
@@ -319,13 +319,13 @@
 		<Item Name="StoreName">商店名...</Item>
 	</DistributionWindow>
 	<WageWindow>
-		<Item Name="Employee request">雇员要求</Item>
+		<Item Name="Employee request">员工要求</Item>
 		<Item Name="Accept">接受</Item>
 		<Item Name="Close">关闭</Item>
 	</WageWindow>
 	<LoanWindow>
 		<Item Name="Amount">数额</Item>
-		<Item Name="Interest">利息</Item>
+		<Item Name="Interest">回报</Item>
 		<Item Name="Period">周期</Item>
 		<Item Name="Current loans">当前借贷</Item>
 		<Item Name="Take loan">进行贷款</Item>
@@ -348,7 +348,7 @@
 		<Item Name="Temporary">临时</Item>
 		<Item Name="Call janitor">联系维护人员</Item>
 		<Item Name="Call cleaning">联系清洁工</Item>
-		<Item Name="Call IT-support">联系IT支持(程序员其实不会修电脑)</Item>
+		<Item Name="Call IT-support">联系IT支持</Item>
 		<Item Name="Hire janitor">招聘维护人员</Item>
 		<Item Name="Hire cleaning">招聘清洁工</Item>
 		<Item Name="PerHour"> 每小时</Item>
@@ -572,13 +572,13 @@
 		<Item Name="OverwriteConfirmMsg">你确认覆盖?</Item>
 		<Item Name="OverwriteConfirmTitle">确认</Item>
 		<Item Name="DismissTitle">解雇</Item>
-		<Item Name="DismissMsg">你确认你要解雇 {0} 位雇员?</Item>
-		<Item Name="DismissMsg2">解雇了 {0} 位雇员</Item>
+		<Item Name="DismissMsg">你确认你要解雇 {0} 位员工?</Item>
+		<Item Name="DismissMsg2">解雇了 {0} 位员工</Item>
 		<Item Name="SellTitle">卖掉</Item>
-		<Item Name="SellMsg">你确定你要卖掉 {0} 件家具?</Item>
+		<Item Name="SellMsg">你确定要卖掉 {0} 件家具?</Item>
 		<Item Name="SellMsg2">卖掉了 {0} 件家具</Item>
 		<Item Name="BulldozeTitle">铲平</Item>
-		<Item Name="BulldozeMsg">你确定你要铲平 {0} 间房间?</Item>
+		<Item Name="BulldozeMsg">你确定要铲平 {0} 间房间?</Item>
 		<Item Name="BulldozeMsg2">铲平 {0} 间房间</Item>
 		<Item Name="CannotBulldozeSupport">一个或多建房间用于支持且不能被产品</Item>
 		<Item Name="SaveGameFail">无法保存游戏. 游戏将会继续, 但你可能会感受到奇怪的现象或丢失数据.
@@ -608,12 +608,12 @@
 		<Item Name="DistributionNameError">名字已被人使用了</Item>
 		<Item Name="DistributionServerError">请选择一个服务器</Item>
 		<Item Name="DistributionNameWarning">你确定将分发渠道命名为 {0}? 之后你将无法更改该名称</Item>
-		<Item Name="DistributionOfflineWarning">你确定你要下线你的渠道? 这将会激怒你的分销商和他们的客户</Item>
+		<Item Name="DistributionOfflineWarning">你确定要下线你的渠道? 这将会激怒你的分销商和他们的客户</Item>
 		<Item Name="EmployeeCourseBookError">你所选择的一到多为员工已经参加学习课程了</Item>
 		<Item Name="TeamNameError">一个团队已经起了个名字</Item>
 		<Item Name="TeamEmptyNameError">团队名不能为空</Item>
-		<Item Name="LowMoneyHireWarning">当你雇佣 {0} 后，你的公司将会陷入资金紧缺， 你确定你不想再等等?</Item>
-		<Item Name="LowInsuranceHireWarning">你的保险账户资金有限，这将减少高质量的应聘者，你确定你要继续？</Item>
+		<Item Name="LowMoneyHireWarning">当你雇佣 {0} 后，你的公司将会陷入资金紧缺， 你确定不想再等等?</Item>
+		<Item Name="LowInsuranceHireWarning">你的保险账户资金有限，这将减少高质量的应聘者，你确定要继续？</Item>
 		<Item Name="WinDialogMsg">祝贺！你完成了这个场景</Item>
 		<Item Name="WinDialogMsgTitle">你获胜了！</Item>
 		<Item Name="WinDialogMsgQuit">退出</Item>
@@ -621,11 +621,11 @@
 		<Item Name="LoseDialogMsg">你没有完成这个场景</Item>
 		<Item Name="LoseDialogMsgTitle">你失败了！</Item>
 		<Item Name="BankruptInsurance">你的账户中有 {0}
-你确定你要从你的保险账户中取出 {1} ，并挽救濒临破产危机的公司么?</Item>
+你确定要从你的保险账户中取出 {1} ，并挽救濒临破产危机的公司么?</Item>
 		<Item Name="BankruptStock">你的账户中有 {0}
-你确定你要从你卖掉股票 {1} ，并挽救濒临破产危机的公司么?</Item>
+你确定要从你卖掉股票 {1} ，并挽救濒临破产危机的公司么?</Item>
 		<Item Name="BankruptLoan">你的账户中有 {0}
-你确定你要借贷 {1} ，并挽救濒临破产危机的公司么?</Item>
+你确定要借贷 {1} ，并挽救濒临破产危机的公司么?</Item>
 		<Item Name="BankruptLoseMsg">你破产了，你的账户里剩下 {0}</Item>
 	</Dialogs>
 	<FurnitureInfo>
@@ -671,31 +671,31 @@
 		<Item Name="Decoration">装饰</Item>
 	</BuildMode>
 	<RightClick>
-		<Item Name="ActionPair">Assign furniture to employee</Item>
-		<Item Name="ActionDefault Style">Set as default style</Item>
-		<Item Name="ActionUnify Style">Unify style of selected elements</Item>
-		<Item Name="ActionRoom Color">Room colors</Item>
-		<Item Name="ActionMaterial">Room patterns</Item>
-		<Item Name="ActionEducate">Educate employee</Item>
-		<Item Name="ActionDismiss">Dismiss employee</Item>
-		<Item Name="ActionSell">Sell furniture</Item>
-		<Item Name="ActionDestroy">Destroy room</Item>
-		<Item Name="ActionChange Team">Switch team</Item>
-		<Item Name="ActionLimit Use">Limit room usage</Item>
-		<Item Name="ActionSelect Building">Select entire building</Item>
-		<Item Name="ActionChange Role">Change employee role</Item>
-		<Item Name="ActionSend home">Send employee home</Item>
-		<Item Name="ActionFurniture color">Furniture color</Item>
-		<Item Name="ActionTypes in Room">Select furniture types in selected rooms</Item>
-		<Item Name="ActionDetails">Employee details</Item>
-		<Item Name="ActionChange Salary">Change employee salary</Item>
-		<Item Name="ActionSelect Team">Select entire team</Item>
-		<Item Name="ActionSelect Owned">Select furniture assigned to employee</Item>
-		<Item Name="ActionSelect Staff">Select employees in room</Item>
-		<Item Name="ActionUnpair">Unassign furniture</Item>
-		<Item Name="ActionPair Use">Assign the furniture being used by employee</Item>
-		<Item Name="ActionUpgrade">Upgrade furniture to next tier</Item>
-		<Item Name="ActionMove">Move furniture</Item>
+		<Item Name="ActionPair">为员工分配家具中</Item>
+		<Item Name="ActionDefault Style">设置为默认样式</Item>
+		<Item Name="ActionUnify Style">统一选定项的风格</Item>
+		<Item Name="ActionRoom Color">房间颜色</Item>
+		<Item Name="ActionMaterial">房间花纹</Item>
+		<Item Name="ActionEducate">培训员工</Item>
+		<Item Name="ActionDismiss">解雇员工</Item>
+		<Item Name="ActionSell">售出家具</Item>
+		<Item Name="ActionDestroy">摧毁房间</Item>
+		<Item Name="ActionChange Team">切换团队</Item>
+		<Item Name="ActionLimit Use">限制房间用途</Item>
+		<Item Name="ActionSelect Building">选择整个建筑</Item>
+		<Item Name="ActionChange Role">变更员工角色</Item>
+		<Item Name="ActionSend home">送员工回家</Item>
+		<Item Name="ActionFurniture color">家具颜色</Item>
+		<Item Name="ActionTypes in Room">选择当前选中的房间内该类型的家具</Item>
+		<Item Name="ActionDetails">员工详情</Item>
+		<Item Name="ActionChange Salary">调整员工薪资</Item>
+		<Item Name="ActionSelect Team">选择整个团队</Item>
+		<Item Name="ActionSelect Owned">为员工分配指定家具</Item>
+		<Item Name="ActionSelect Staff">选择房间内的所有员工</Item>
+		<Item Name="ActionUnpair">取消家具分配</Item>
+		<Item Name="ActionPair Use">分配家具为制定员工使用</Item>
+		<Item Name="ActionUpgrade">升级家具到下一阶</Item>
+		<Item Name="ActionMove">移动家具</Item>
 	</RightClick>
 	<ProductWindow>
 		<Item Name="ProductChooseGeneric">选择 {0}</Item>
@@ -708,31 +708,31 @@
 	<WorkItems>
 		<Item Name="SupportTickets">队列里有 {0} 项工单</Item>
 		<Item Name="CancelSupport">取消支持</Item>
-		<Item Name="MarketingFundsOut">You have run out of funds to support your marketing campaign</Item>
-		<Item Name="MarketingStage">Talking to press</Item>
-		<Item Name="MarketingBalance">Net</Item>
-		<Item Name="DesignStageStockWait">Waiting for approval</Item>
-		<Item Name="DesignStageDesigning">Designing</Item>
-		<Item Name="ThrowOutAuto">Throw out</Item>
-		<Item Name="DesignWaitLabel">Waiting</Item>
-		<Item Name="WorkItemQuality">Expected quality</Item>
-		<Item Name="DesignNoProgress">This design has no redeeming features and cannot be promoted to development</Item>
-		<Item Name="DesignNoProgressTitle">Cannot develop</Item>
-		<Item Name="AlphaNoProgress">Cannot promote alpha since no work has been done</Item>
-		<Item Name="AlphaNoProgressTitle">Cannot promote</Item>
-		<Item Name="ContractCancel">Lost {0} for cancelling contract</Item>
-		<Item Name="ContractFinish">Finished contract for a net worth of {0}</Item>
+		<Item Name="MarketingFundsOut">你没有足够的资金来支持你的</Item>
+		<Item Name="MarketingStage">联系发行商</Item>
+		<Item Name="MarketingBalance">净值</Item>
+		<Item Name="DesignStageStockWait">等待批准</Item>
+		<Item Name="DesignStageDesigning">设计中</Item>
+		<Item Name="ThrowOutAuto">砍掉项目</Item>
+		<Item Name="DesignWaitLabel">等候中</Item>
+		<Item Name="WorkItemQuality">预期质量</Item>
+		<Item Name="DesignNoProgress">这份设计没有可取之处，无法提升至开发阶段</Item>
+		<Item Name="DesignNoProgressTitle">无法开发</Item>
+		<Item Name="AlphaNoProgress">无法在Alpha阶段还没结束是提升项目</Item>
+		<Item Name="AlphaNoProgressTitle">无法提升</Item>
+		<Item Name="ContractCancel">因外包合同毁约而失去了 {0} </Item>
+		<Item Name="ContractFinish">完成了总值为 {0} 的外包合同</Item>
 		<Item Name="Alpha">Alpha</Item>
 		<Item Name="Beta">Beta</Item>
-		<Item Name="Promote">升级</Item>
+		<Item Name="Promote">提升</Item>
 		<Item Name="Release">发行日</Item>
 		<Item Name="Delay">Delay</Item>
-		<Item Name="NoBugs">No bugs to fix</Item>
-		<Item Name="StillBugs">Fixed {0} bugs</Item>
+		<Item Name="NoBugs">没有BUG(漏洞)</Item>
+		<Item Name="StillBugs">修复了 {0} 个BUG(漏洞)</Item>
 		<Item Name="ContractState">{0} months left - Goal: {1}%</Item>
-		<Item Name="ReleaseMarketingHint">Do you want to start marketing for {0} now?
-Marketing is crucial for your products' success.
-You can start a marketing campaign after releasing a product at any time by clicking the "Your Releases" button</Item>
+		<Item Name="ReleaseMarketingHint">你想现在为 {0} 开始市场活动?
+市场营销对你产品的成功至关重要.
+你可以在产品发布后的任何时间通过点击 “你的发布” 按钮开始市场营销活动</Item>
 	</WorkItems>
 	<Clothing>
 		<Item Name="Skirt">裙子</Item>
@@ -801,8 +801,8 @@ You can start a marketing campaign after releasing a product at any time by clic
 	<Item Name="State">状态</Item>
 	<Item Name="YearsPostfix"> 年</Item>
 	<Item Name="MonthsPostfix"> 月</Item>
-	<Item Name="Assign">分配</Item>
-	<Item Name="Unassigned">未分配</Item>
+	<Item Name="Assign">分配团队</Item>
+	<Item Name="Unassigned">取消分配</Item>
 	<Item Name="SaveName">输入存档名...</Item>
 	<Item Name="Save">保存</Item>
 	<Item Name="Load">加载</Item>
@@ -856,280 +856,279 @@ You can start a marketing campaign after releasing a product at any time by clic
 	<Item Name="Color">颜色</Item>
 	<Item Name="NetProfit">净利润</Item>
 	<Alpha4.1>
-		<Item Name="AreYouSure">Are you sure you want to</Item>
-		<Item Name="MarketingWindowTitle">Marketing for {0}</Item>
-		<Item Name="PreMarketingWindowTitle">Pre-marketing for {0}</Item>
-		<Item Name="MarketingStop">End</Item>
-		<Item Name="On market">On market</Item>
+		<Item Name="AreYouSure">你确定你想要</Item>
+		<Item Name="MarketingWindowTitle">{0} 的市场营销</Item>
+		<Item Name="PreMarketingWindowTitle">{0} 的前期市场营销</Item>
+		<Item Name="MarketingStop">结束</Item>
+		<Item Name="On market">在市场上</Item>
 		<Item Name="Inventor">发明家</Item>
-		<Item Name="CustomLeaderHint">Increases the ability to bring together a team, boost their stats and handle management tasks</Item>
-		<Item Name="CustomProgrammerHint">Increases how fast and the amount of quality the programmer can add and how quickly bugs are fixed</Item>
-		<Item Name="CustomDesignerHint">Increases the speed of finishing design work and makes the employee better at stopping before a design gets too complex</Item>
-		<Item Name="CustomArtistHint">Increases how fast and the amount of quality the artist can add to a product and how quickly flaws are fixed</Item>
-		<Item Name="CustomMarketerHint">Increases the effectiveness and speed of marketing campaigns and company reputation bonuses</Item>
-		<Item Name="ElectronicHeatWarning">Some of your electronics are being affected by the heat</Item>
-		<Item Name="ActionCoolOverride">Put ventilators in full cool mode to preserve electronics</Item>
-		<Item Name="CoolMode">Super cooling</Item>
-		<Item Name="Slavery">Slavery</Item>
+		<Item Name="CustomLeaderHint">增强领导能力，可以提升团队绩效并同时进行任务管理</Item>
+		<Item Name="CustomProgrammerHint">增强编码能力，可以让你的程序员可以使BUG(漏洞)被更快地修复</Item>
+		<Item Name="CustomDesignerHint">增强设计能力，可以提升产品的设计速度并让产品变得更好且不复杂</Item>
+		<Item Name="CustomArtistHint">增强艺术家能力，可以让你的产品更快、更好、缺陷修复的更快且更加贴近于艺术品</Item>
+		<Item Name="CustomMarketerHint">增强工作效能可以加速市场营销并让公司获得更高名声</Item>
+		<Item Name="ElectronicHeatWarning">一些电子设备过热</Item>
+		<Item Name="ActionCoolOverride">将换气扇调整为冷却模式来保护电子设备</Item>
+		<Item Name="CoolMode">超级冷却模式</Item>
+		<Item Name="Slavery">奴隶</Item>
 	</Alpha4.1>
 	<Alpha4.2>
-		<Item Name="NeedNotChosen">Choose need</Item>
+		<Item Name="NeedNotChosen">选择所需</Item>
 	</Alpha4.2>
 	<Alpha4.3>
-		<Item Name="Re-open">Re-open</Item>
-		<Item Name="cashflow">cashflow</Item>
-		<Item Name="Rooms">Rooms</Item>
-		<Item Name="Furniture">Furniture</Item>
-		<Item Name="SelectedEverything">Everything</Item>
-		<Item Name="JanuaryAbbr">Jan.</Item>
-		<Item Name="FebruaryAbbr">Feb.</Item>
-		<Item Name="MarchAbbr">Mar.</Item>
-		<Item Name="AprilAbbr">Apr.</Item>
-		<Item Name="MayAbbr">May</Item>
-		<Item Name="JuneAbbr">Jun.</Item>
-		<Item Name="JulyAbbr">Jul.</Item>
-		<Item Name="AugustAbbr">Aug.</Item>
-		<Item Name="SeptemberAbbr">Sep.</Item>
-		<Item Name="OctoberAbbr">Oct.</Item>
-		<Item Name="NovemberAbbr">Nov.</Item>
-		<Item Name="DecemberAbbr">Dec.</Item>
-		<Item Name="Day">Day</Item>
-		<Item Name="DayPostfix">day(s)</Item>
-		<Item Name="6 months">6 months</Item>
-		<Item Name="Last month">Last month</Item>
-		<Item Name="This month">This month</Item>
-		<Item Name="SheetHR">HR</Item>
-		<Item Name="SheetSalaries">Salaries</Item>
-		<Item Name="SheetStaff">Staff</Item>
-		<Item Name="SheetHire">Hire</Item>
-		<Item Name="SheetEducation">Education</Item>
-		<Item Name="SheetMaintenance">Maintenance</Item>
-		<Item Name="SheetConstruction">Construction</Item>
-		<Item Name="SheetRepairs">Repairs</Item>
-		<Item Name="SheetBills">Bills</Item>
-		<Item Name="SheetSoftware">Software</Item>
-		<Item Name="SheetSales">Sales</Item>
-		<Item Name="SheetLicenses">Licenses</Item>
-		<Item Name="SheetMarketing">Marketing</Item>
-		<Item Name="SheetContracts">Contracts</Item>
-		<Item Name="SheetDistribution">Distribution</Item>
-		<Item Name="SheetMisc">Misc</Item>
-		<Item Name="SheetStocks">Stocks</Item>
-		<Item Name="SheetLoan">Loan</Item>
-		<Item Name="SheetInterest">Interest</Item>
+		<Item Name="Re-open">重开</Item>
+		<Item Name="cashflow">资金流</Item>
+		<Item Name="Rooms">房间</Item>
+		<Item Name="Furniture">家具</Item>
+		<Item Name="SelectedEverything">一切</Item>
+		<Item Name="JanuaryAbbr">一月.</Item>
+		<Item Name="FebruaryAbbr">二月.</Item>
+		<Item Name="MarchAbbr">三月.</Item>
+		<Item Name="AprilAbbr">四月.</Item>
+		<Item Name="MayAbbr">五月.</Item>
+		<Item Name="JuneAbbr">六月.</Item>
+		<Item Name="JulyAbbr">七月.</Item>
+		<Item Name="AugustAbbr">八月.</Item>
+		<Item Name="SeptemberAbbr">九月.</Item>
+		<Item Name="OctoberAbbr">十月.</Item>
+		<Item Name="NovemberAbbr">十一月.</Item>
+		<Item Name="DecemberAbbr">十二月.</Item>
+		<Item Name="Day">日</Item>
+		<Item Name="DayPostfix">天</Item>
+		<Item Name="6 months">6 个月</Item>
+		<Item Name="Last month">最后一月</Item>
+		<Item Name="This month">本月</Item>
+		<Item Name="SheetHR">人事</Item>
+		<Item Name="SheetSalaries">工资</Item>
+		<Item Name="SheetStaff">杂役</Item>
+		<Item Name="SheetHire">招聘</Item>
+		<Item Name="SheetEducation">培训</Item>
+		<Item Name="SheetMaintenance">维护</Item>
+		<Item Name="SheetConstruction">建设</Item>
+		<Item Name="SheetRepairs">修理</Item>
+		<Item Name="SheetBills">账单</Item>
+		<Item Name="SheetSoftware">软件</Item>
+		<Item Name="SheetSales">销售</Item>
+		<Item Name="SheetLicenses">授权</Item>
+		<Item Name="SheetMarketing">市场</Item>
+		<Item Name="SheetContracts">合同</Item>
+		<Item Name="SheetDistribution">分发渠道</Item>
+		<Item Name="SheetMisc">杂项</Item>
+		<Item Name="SheetStocks">股市</Item>
+		<Item Name="SheetLoan">借贷</Item>
+		<Item Name="SheetInterest">回报</Item>
 		<Item Name="SheetNA">N/A</Item>
-		<Item Name="DaysPerMonth">Days per month</Item>
-		<Item Name="OffMarketHint">If a product is affecting your reputation or you can't support it, it might be a good idea to pull it off the market. It can affect your reputation.</Item>
+		<Item Name="DaysPerMonth">日(每月)</Item>
+		<Item Name="OffMarketHint">如果你不再支持该产品，你的口碑会受到影响。但这也许是将它从市场上下架的好方法。</Item>
 	</Alpha4.3>
 	<Alpha4.4>
 		<Item Name="Room Aura">Room Aura</Item>
-		<Item Name="Janitor">Maintenance</Item>
-		<Item Name="IT">IT</Item>
+		<Item Name="Janitor">维护</Item>
+		<Item Name="IT">IT支持</Item>
 	</Alpha4.4>
 	<Alpha4.5>
-		<Item Name="Month">Month</Item>
-		<Item Name="Year">Year</Item>
-		<Item Name="PresimLoadMsg">Simulating market...</Item>
-		<Item Name="VacationNotify">{0} employee(s) went on vacation</Item>
-		<Item Name="RetireNotify">{0} has retired</Item>
-		<Item Name="SickNotify">{0} has called in sick</Item>
-		<Item Name="DiedNotify">{0} has died!</Item>
-		<Item Name="HospitalizedNotify">{0} has been in an accident and has resigned!</Item>
-		<Item Name="Skip day">Skip day</Item>
-		<Item Name="CompanyLoadMsg">Active companies</Item>
+		<Item Name="Month">月</Item>
+		<Item Name="Year">年</Item>
+		<Item Name="PresimLoadMsg">模拟市场运作...</Item>
+		<Item Name="VacationNotify">{0} 位员工将要去休假</Item>
+		<Item Name="RetireNotify">{0} 位员工退休了</Item>
+		<Item Name="SickNotify">{0} 位员工生病了</Item>
+		<Item Name="DiedNotify">{0} 位员工死了！</Item>
+		<Item Name="HospitalizedNotify">{0} 位员工发生了意外事故，并已辞职！</Item>
+		<Item Name="Skip day">跳过一天</Item>
+		<Item Name="CompanyLoadMsg">激活公司</Item>
 		<Item Name="TeamCompat0">N/A</Item>
-		<Item Name="TeamCompat1">Extremely bad</Item>
-		<Item Name="TeamCompat2">Very bad</Item>
-		<Item Name="TeamCompat3">Bad</Item>
-		<Item Name="TeamCompat4">Normal</Item>
-		<Item Name="TeamCompat5">Good</Item>
-		<Item Name="TeamCompat6">Great</Item>
-		<Item Name="TeamCompat7">Amazing</Item>
-		<Item Name="ITBrokeWarning">Some electronic equipment broke and needs IT-support</Item>
-		<Item Name="SheetBalance">Balance</Item>
-		<Item Name="Thoughts">Thoughts</Item>
-		<Item Name="Ideal salary">Ideal salary</Item>
-		<Item Name="Any job">Any job</Item>
+		<Item Name="TeamCompat1">极差</Item>
+		<Item Name="TeamCompat2">非常差</Item>
+		<Item Name="TeamCompat3">差</Item>
+		<Item Name="TeamCompat4">中等</Item>
+		<Item Name="TeamCompat5">好</Item>
+		<Item Name="TeamCompat6">非常好</Item>
+		<Item Name="TeamCompat7">极好</Item>
+		<Item Name="ITBrokeWarning">一些电子设备损坏，需要找IT支持来维修</Item>
+		<Item Name="SheetBalance">余额</Item>
+		<Item Name="Thoughts">想法</Item>
+		<Item Name="Ideal salary">理想薪酬</Item>
+		<Item Name="Any job">任何工作</Item>
 	</Alpha4.5>
 	<Alpha4.6>
-		<Item Name="NoPeeOptions">There is nowhere to pee</Item>
-		<Item Name="DisgustingToilet">The toilets are disgusting</Item>
-		<Item Name="NoToiletPrivacy">There is no privacy in the bathroom</Item>
-		<Item Name="NoSitting">There is nowhere to sit</Item>
-		<Item Name="BadCoffee">The coffee tastes bad</Item>
-		<Item Name="GoodCoffee">This coffee is great</Item>
-		<Item Name="LowerHealthInsurance">I need health insurance if I get hurt</Item>
-		<Item Name="LowerLifeInsurance">I could die at any moment, I need life insurance</Item>
-		<Item Name="LowerPension">Pensions are lowered just as I'm about to retire</Item>
-		<Item Name="MissingToiletWarning">An employee is having trouble finding a toilet</Item>
-		<Item Name="ServerLoadWarning">Your servers cannot deal with the load for distribution</Item>
-		<Item Name="ServerItemLoadWarning">Your servers can't deal with the load from {0}</Item>
-		<Item Name="BoughtOutProducts">You received the rights to {0} products</Item>
-		<Item Name="LowCompatWarning">Team {0} has low compatibility</Item>
-		<Item Name="ContractIncomeMsg">Got {0} from accepting contract</Item>
-		<Item Name="VSyncWarning">Turning off VSync could damage your graphics card over longer periods of play, due to overheating.
-Are you sure you want to continue?</Item>
-		<Item Name="RoomLowEnv">This room is boring to look at</Item>
-		<Item Name="FurnitureBlockedStaff">You have furniture that your staff is unable to reach</Item>
-		<Item Name="DesignDetailBoxNew">ETA: {3}
-Artists needed: {7}
-Expected interest: {0}%
-Innovation: {4}
-Stability: {5}
-Usability: {6}
-OS coverage: {1}%
-License costs: {2}
-Recommended team size: {8}</Item>
-		<Item Name="Available contracts">Available contracts</Item>
-		<Item Name="Finished contracts">Finished contracts</Item>
-		<Item Name="ContractResultBreakdown">Income: {0}
-Income for accepting: {1}
-Bug penalty: {2}
-Late penalty: {3}
-Quality penalty: {4}
-Cancel penalty: {5}
-Net profit: {6}
-Delivered {7}</Item>
-		<Item Name="ContractEarly">{0} month(s) early</Item>
-		<Item Name="ContractLate">{0} month(s) too late</Item>
-		<Item Name="ContractOnTime">on time</Item>
-		<Item Name="CloneToolTitle">Clone tool</Item>
-		<Item Name="CloneToolDesc">Use this to clone the currently selected rooms</Item>
-		<Item Name="ContractDetailsNew">Company: {0}
-Scope: {1}
-Recommended team size: {9}
-Time-limit: {2} month(s)
-Artists: {8}
-Required quality: {3}
-Upfront: {4}
-When done: {5}
-Penalty: -{6}
-Cost per bug: -{7}</Item>
-		<Item Name="ActionRoomUnpair">Unassign rooms</Item>
-		<Item Name="ActionRoomPair">Assign room</Item>
-		<Item Name="Hire IT-support">Hire IT-support</Item>
-		<Item Name="ComplaintDialogInfo">Name: {0}
-Age: {1}
-Role: {2}
-Team: {3}
-Years with company: {4}</Item>
-		<Item Name="Complaints">Complaints</Item>
-		<Item Name="Current salary">Current salary</Item>
-		<Item Name="Demanded salary">Demanded salary</Item>
-		<Item Name="Accept demand">Accept demand</Item>
-		<Item Name="Fire employee">Fire employee</Item>
-		<Item Name="PrematureDelayWarning">Are you sure you want to end the delay phase?
-Ending the delay phase prematurely will often extend the beta phase due to the amount of additional bugs.</Item>
+		<Item Name="NoPeeOptions">这里没有地方可以如厕</Item>
+		<Item Name="DisgustingToilet">这里的厕所让人作呕</Item>
+		<Item Name="NoToiletPrivacy">这里的厕所开放到没有隐私</Item>
+		<Item Name="NoSitting">这里没有地方可以坐下</Item>
+		<Item Name="BadCoffee">这里的咖啡真难喝</Item>
+		<Item Name="GoodCoffee">这里的咖啡棒极了</Item>
+		<Item Name="LowerHealthInsurance">当我受伤了，我需要健康保险</Item>
+		<Item Name="LowerLifeInsurance">我随时都会挂掉，我需要人寿保险</Item>
+		<Item Name="LowerPension">养老金就在我要退休时被缩水了！</Item>
+		<Item Name="MissingToiletWarning">一位员工无法找到厕所</Item>
+		<Item Name="ServerLoadWarning">你的服务器无法承受这么大的负载！</Item>
+		<Item Name="ServerItemLoadWarning">你的服务器无法承受来自 {0} 的大量请求！</Item>
+		<Item Name="BoughtOutProducts">你收到了来自 {0} 的所有产品版权</Item>
+		<Item Name="LowCompatWarning">团队 {0} 团队协调性极差</Item>
+		<Item Name="ContractIncomeMsg">接受了来自 {0} 的外包合同</Item>
+		<Item Name="VSyncWarning">长时间关闭垂直同步进行游戏会因过热而导致你的显卡损坏。
+你确定要继续?</Item>
+		<Item Name="RoomLowEnv">这间房子看起来很无聊</Item>
+		<Item Name="FurnitureBlockedStaff">你杂役人员无法靠近你的某件家具</Item>
+		<Item Name="DesignDetailBoxNew">预计完成时间: {3}
+共需艺术家数: {7}
+预期回报: {0}%
+创新度: {4}
+稳定性: {5}
+可用性: {6}
+操作系统覆盖率: {1}%
+授权费用: {2}
+建议团队规模: {8}</Item>
+		<Item Name="Available contracts">可以接的外包合同</Item>
+		<Item Name="Finished contracts">已完成的外包合同</Item>
+		<Item Name="ContractResultBreakdown">收入: {0}
+来自外包的收入: {1}
+来自BUG(漏洞)的惩罚: {2}
+来自误期的惩罚: {3}
+来自质量的惩罚: {4}
+来自毁约的惩罚: {5}
+总利润: {6}
+交付: {7}</Item>
+		<Item Name="ContractEarly">提前了 {0} 个月</Item>
+		<Item Name="ContractLate">延误了 {0} 个月</Item>
+		<Item Name="ContractOnTime">按时</Item>
+		<Item Name="CloneToolTitle">克隆工具</Item>
+		<Item Name="CloneToolDesc">使用克隆工具可以复制你当前选中的屋子</Item>
+		<Item Name="ContractDetailsNew">公司: {0}
+规模: {1}
+推荐团队规模: {9}
+时间限制: {2} 个月
+艺术家: {8}
+质量要求: {3}
+前期: {4}
+完成时: {5}
+毁约惩罚: -{6}
+每个BUG(漏洞)将惩罚: -{7}</Item>
+		<Item Name="ActionRoomUnpair">为分配房间</Item>
+		<Item Name="ActionRoomPair">分配房间</Item>
+		<Item Name="Hire IT-support">雇佣IT支持</Item>
+		<Item Name="ComplaintDialogInfo">名字: {0}
+年龄: {1}
+角色: {2}
+团队: {3}
+为公司服务的年数: {4}</Item>
+		<Item Name="Complaints">怨言</Item>
+		<Item Name="Current salary">当前薪资</Item>
+		<Item Name="Demanded salary">要求工资</Item>
+		<Item Name="Accept demand">接受要求</Item>
+		<Item Name="Fire employee">让TA滚(解雇)</Item>
+		<Item Name="PrematureDelayWarning">你确定要结束延误环节吗？
+过早的结束延误环节会导致BETA增加大量的额外BUG(漏洞)</Item>
 	</Alpha4.6>
 	<Alpha4.7>
-			<Item Name="DesignProductTeamSizeHintLarge">The size of the team you've chosen is quite large for a project of this size
-Are you sure you want to continue?</Item>
-			<Item Name="CloneComplexityWarning">You're cloning a large amount of stuff, which could overwhelm your computer.
-Are you sure you want to continue?</Item>
-			<Item Name="UnreachableFurniture">Staff is unable to reach this {0}
-Make sure nothing is in the way</Item>
-			<Item Name="UnreachableParking">This parking spot cannot be reached
-Make sure it is connected to the main road</Item>
-			<Item Name="EmployeeStuck">{0} cannot get home
-Make sure there is a path out of the building with nothing blocking the way</Item>
-			<Item Name="Coverage">Coverage</Item>
+			<Item Name="DesignProductTeamSizeHintLarge">你选择的团队人数对你当前决定的项目规模来说过大。
+你确定是否继续?</Item>
+			<Item Name="CloneComplexityWarning">你将要克隆大量的物品，这将会让你运行游戏的电脑负载过大。
+你确定是否继续?</Item>
+			<Item Name="UnreachableFurniture">杂役人员无法接近 {0}
+请确保其周围有路可行</Item>
+			<Item Name="UnreachableParking">这个停车点无法靠近
+请确保它和主马路链接</Item>
+			<Item Name="EmployeeStuck">{0} 位员工无法回家
+确保建筑内回家的路线没有东西阻碍</Item>
+			<Item Name="Coverage">覆盖</Item>
 	</Alpha4.7>
 	<Alpha5.1>
-		<Item Name="I agree">I agree</Item>
-		<Item Name="Validate">Validate</Item>
-		<Item Name="Forest">Forest</Item>
-		<Item Name="City">City</Item>
-		<Item Name="ContractStateMonth">{0} months left</Item>
-		<Item Name="StockBuyOutError">You have to own all stocks in a company before you can buy it out</Item>
-		<Item Name="CompanyDetailInfo">Worth: {0}
-Share: {1}
-Founded: {2}
-Products: {3}
-Original IPs: {4}
-Companies bought: {5}</Item>
-		<Item Name="Electricity">Electricity</Item>
-		<Item Name="Water">Water</Item>
-		<Item Name="Maintenance">Maintenance</Item>
-		<Item Name="HostingDeal">Hosting for {0}</Item>
-		<Item Name="IPDeal">{0} IP</Item>
+		<Item Name="I agree">我同意</Item>
+		<Item Name="Validate">校验</Item>
+		<Item Name="Forest">森林</Item>
+		<Item Name="City">城市</Item>
+		<Item Name="ContractStateMonth">剩下 {0} 个月</Item>
+		<Item Name="StockBuyOutError">买下这家公司前你需要购入他们所有的股票</Item>
+		<Item Name="CompanyDetailInfo">价值: {0}
+股份: {1}
+成立于: {2}
+产品数: {3}
+拥有版权数: {4}
+公司收购价: {5}</Item>
+		<Item Name="Electricity">电力</Item>
+		<Item Name="Water">水</Item>
+		<Item Name="Maintenance">维护</Item>
+		<Item Name="HostingDeal">托管了 {0} 件</Item>
+		<Item Name="IPDeal">{0} 件版权</Item>
 		<Item Name="WorkDeal">{1} for {0}</Item>
-		<Item Name="Deals">Deals</Item>
-		<Item Name="Description">Description</Item>
-		<Item Name="Client">Client</Item>
-		<Item Name="Offer">Offer</Item>
-		<Item Name="ServerDealDetail">Type: {0}
-Power unit per hour: {1}
-Required units: {2}</Item>
-		<Item Name="MainDealsDesc">Strike deals with other companies and beat them from the inside
-You need a reception to receive offers</Item>
-		<Item Name="IPDealActionBuy">Do you want to buy this IP for {0}?</Item>
-		<Item Name="IPDealActionSell">Do you want to sell this IP to {0} for {1}?</Item>
-		<Item Name="IPDealActionFail">Nobody is interested in buying this IP</Item>
+		<Item Name="Deals">交易</Item>
+		<Item Name="Description">描述</Item>
+		<Item Name="Client">终端</Item>
+		<Item Name="Offer">提供</Item>
+		<Item Name="ServerDealDetail">类型: {0}
+每小时耗电: {1}
+需要点亮: {2}</Item>
+		<Item Name="MainDealsDesc">与其他公司达成交易，并从内部击败他们
+你需要一个前台来接受报价</Item>
+		<Item Name="IPDealActionBuy">你想要 {0} 报价来购买这项版权么?</Item>
+		<Item Name="IPDealActionSell">你想要以 {0} 的价格将版权卖给 {1}?</Item>
+		<Item Name="IPDealActionFail">没有人对这项版权感兴趣</Item>
 		<Item Name="Trade IP">买下版权</Item>
-		<Item Name="SheetDeals">Deals</Item>
-		<Item Name="Receptionist">Receptionist</Item>
-		<Item Name="Guest">Guest</Item>
-		<Item Name="Hire Receptionist">Hire Receptionist</Item>
-		<Item Name="CompanyNameWarning">You haven't picked a company name.
-Are you sure you want to continue?</Item>
+		<Item Name="SheetDeals">交易数</Item>
+		<Item Name="Receptionist">前台</Item>
+		<Item Name="Guest">客人</Item>
+		<Item Name="Hire Receptionist">招聘前台</Item>
+		<Item Name="CompanyNameWarning">你尚未选择一个公司名.
+你确定要继续?</Item>
 		<Item Name="ActionConnectServers">连接服务器</Item>
 		<Item Name="WireMode">连线模式</Item>
-		<Item Name="GuestCompany">{0} on behalf of {1}</Item>
+		<Item Name="GuestCompany">代表 {1} 来 {0}</Item>
 	</Alpha5.1>
 	<Alpha5.2>
-		<Item Name="SupportWorkSlowWarning">Your employees can't keep up with support for {0}</Item>
-		<Item Name="SupportWorkCancelWarning">Cancelling support for a product with bugs still present will anger your custormers!
-Are you sure you want to continue?</Item>
+		<Item Name="SupportWorkSlowWarning">你的员工无法继续支持产品 {0}</Item>
+		<Item Name="SupportWorkCancelWarning">停止支持依然有BUG(漏洞)的产品会惹怒你的客户！
+你确定要继续？</Item>
 	</Alpha5.2>
 	<Alpha5.3>
-		<Item Name="AcceptAllWages">Accept all and close</Item>
-		<Item Name="AcceptAllWagesWarning">Are you sure you want to accept all demands?
-The raises averages {0}, which is a net change of {1} per month</Item>
-		<Item Name="FurnitureQueue">{0} employee(s) waiting to use</Item>
-		<Item Name="Upcoming events">Upcoming events</Item>
-		<Item Name="UpcomingEvDesc">Click here to see a list of events coming up next month. The icon will glow red if very important events are happening.</Item>
-		<Item Name="RetireEventMsg">{0} from team {1} will retire next month, after working for {2} for {3} years.</Item>
-		<Item Name="VacationEventMsg1">{0} have planned vacations next month and {1} employees are scheduled to hold their vacation.</Item>
-		<Item Name="VacationEventMsg2">No teams have planned vacations next month but {0} employees are scheduled to hold their vacation.</Item>
-		<Item Name="ReleaseEventMsg">{0} plans to release a product of type {1} called "{2}" next month.</Item>
-		<Item Name="ExceptionNotificationTip">An error occured!</Item>
-		<Item Name="ExceptionNotificationTip2">Click here for details</Item>
-		<Item Name="ExceptionNotificationMsg">I'm sorry to inform you that an error occured just now, which might cause the game to break or become unstable (Early access, right?).
-If you have a recent save, I would suggest closing the game, re-opening it and then loading it, as you might not be able to save the current game as of now.
-If you have an idea of what happened based on the error message (click the "See error" button to check) and you can reproduce it, I would be very grateful if you could send a mail to SoftwareInc@Coredumping.com with a description of the error, so that I may fix it.
-I'm very sorry for the inconvenience.</Item>
-		<Item Name="UI size">UI size</Item>
-		<Item Name="NoCompanyName">Please enter a non empty company name</Item>
-		<Item Name="Save picture">Save picture</Item>
-		<Item Name="Tweet picture">Tweet picture</Item>
-		<Item Name="TwitterDesc">What do you want to tell the world?</Item>
-		<Item Name="DefaultTweet">Look at my software empire! #SoftwareInc</Item>
-		<Item Name="Enter pin">Enter pin</Item>
-		<Item Name="TweetError">An error occured while trying to post your picture to Twitter</Item>
-		<Item Name="SteamImgQ">Do you want to save this screenshot to your Steam account?</Item>
+		<Item Name="AcceptAllWages">全部接受并关闭</Item>
+		<Item Name="AcceptAllWagesWarning">你确定接受这些员工的全部要求？
+平均涨薪 {0}, 此后每月共涨薪 {1} </Item>
+		<Item Name="FurnitureQueue">{0} 位员工等待使用</Item>
+		<Item Name="Upcoming events">即将到来的活动</Item>
+		<Item Name="UpcomingEvDesc">点击这里查看下个月的事件列表。如果正在发生非常重要的事件，该图标将发光。</Item>
+		<Item Name="RetireEventMsg">{0} 位来自 {1} 的员工将要在下个月退休, 他们已经为你服务了 {3} 年 {2} 个月.</Item>
+		<Item Name="VacationEventMsg1">{0} 为员工计划在下个月休假，且 {1} 为员工正在计划他们的休假.</Item>
+		<Item Name="VacationEventMsg2">没有团队计划在下个月休假，不过 {0} 为员工正在计划他们的休假.</Item>
+		<Item Name="ReleaseEventMsg">下个月有 {0} 项发行计划，类型为 {1} 名叫 "{2}".</Item>
+		<Item Name="ExceptionNotificationTip">发生错误！</Item>
+		<Item Name="ExceptionNotificationTip2">点击查看详情</Item>
+		<Item Name="ExceptionNotificationMsg">我很抱歉地通知您刚才发生的错误，这可能导致游戏中断或变得不稳定（Steam Early Access 抢先体验，对不对）。
+如果你有一个最近的游戏存档，我会建议关闭游戏，重新打开游戏并加载它，因为你现在可能无法保存目前的游戏。
+如果您发现您经常遇到这个错误、或是可以重现刚刚这个错误 (点击 查看报错 - "See Error" 按钮来检视), 我们非常期盼您可以向 SoftwareInc@Coredumping.com 发送邮件(如果您英文不够好也可以发送中文邮件至 wangze500@gmail.com，译者将帮您代发) 并介绍您发生的错误，我们将试图修复它.
+抱歉给您带来了不便。</Item>
+		<Item Name="UI size">用户界面大小</Item>
+		<Item Name="NoCompanyName">公司名不得为空</Item>
+		<Item Name="Save picture">保存图片</Item>
+		<Item Name="Tweet picture">Twitter分享图片</Item>
+		<Item Name="TwitterDesc">想要与世界分享什么？</Item>
+		<Item Name="DefaultTweet">快来看看我的软件帝国! #SoftwareInc</Item>
+		<Item Name="Enter pin">输入验证码(PIN Code)</Item>
+		<Item Name="TweetError">在试图向 Twitter 发布您的图片时发生了错误</Item>
+		<Item Name="SteamImgQ">是否确认将截图保存到您的 Steam 账户？</Item>
 	</Alpha5.3>
 	<Alpha5.4>
-		<Item Name="WindowPref">Window preferences</Item>
-		<Item Name="Reset">Reset</Item>
-		<Item Name="Upcoming releases">Upcoming releases</Item>
-		<Item Name="UpcomingRelDesc">See a list of announced releases from your competitors</Item>
-		<Item Name="Close all windows">Close all windows</Item>
-		<Item Name="CloseAllWindowWarning">Are you sure you want to close all windows?</Item>
-		<Item Name="Only sequels">Only sequels</Item>
-		<Item Name="Select fallback">Select fallback</Item>
-		<Item Name="Fallback">Fallback</Item>
-		<Item Name="AutoDevProjDetails">Current project details:
-Name: {0}
-Type: {1}
-Scope: {2}</Item>
-		<Item Name="Project">Project</Item>
-				<Item Name="NewWorkDealDetail">Type: {0}
-Software: {1}
-Per day: {2}
-Expires: {3}</Item>
-		<Item Name="Desert">Desert</Item>
-		<Item Name="Tundra">Tundra</Item>
-		<Item Name="Paused">Paused</Item>
+		<Item Name="WindowPref">窗口偏好设置</Item>
+		<Item Name="Reset">重置</Item>
+		<Item Name="Upcoming releases">即将到来的发行</Item>
+		<Item Name="UpcomingRelDesc">查看来自你的竞争对手的产品发行列表</Item>
+		<Item Name="Close all windows">关闭所有窗口</Item>
+		<Item Name="CloseAllWindowWarning">你确定要关闭所有窗口?</Item>
+		<Item Name="Only sequels">总是延续上一代</Item>
+		<Item Name="Select fallback">选择备用</Item>
+		<Item Name="Fallback">备用</Item>
+		<Item Name="AutoDevProjDetails">当前项目详情:
+名称: {0}
+类型: {1}
+规模: {2}</Item>
+		<Item Name="Project">项目</Item>
+				<Item Name="NewWorkDealDetail">类型: {0}
+软件: {1}
+每天: {2}
+延期: {3}</Item>
+		<Item Name="Desert">沙漠</Item>
+		<Item Name="Tundra">苔原</Item>
+		<Item Name="Paused">暂停</Item>
 	</Alpha5.4>
 </UI>
-
