@@ -2,6 +2,8 @@
 
 I need tell you true, "Software Inc." is a Video Game.
 
+简体中文用户请查看 [汉语说明](README_CN.md)
+
 ## Translate Status
 
 Tested in `Alpha Steam 5.4, OSXPlayer`
