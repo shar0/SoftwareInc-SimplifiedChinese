@@ -1,0 +1,147 @@
+<Furniture>
+	<Furniture Name="Table">
+		<Name>桌子</Name>
+		<Description>可以放置东西，并将椅子放在周围</Description>
+	</Furniture>
+	<Furniture Name="Glass Table">
+		<Name>玻璃桌</Name>
+		<Description>一边工作一边享受绝佳的双脚观察视角</Description>
+	</Furniture>
+	<Furniture Name="Cheap Chair">
+		<Name>便宜的塑料椅</Name>
+		<Description>让人难受的便宜塑料椅</Description>
+	</Furniture>
+	<Furniture Name="Office Chair">
+		<Name>办公室椅</Name>
+		<Description>非常好的支撑椅，虽然没有轮子</Description>
+	</Furniture>
+	<Furniture Name="Waiting Chairs">
+		<Name>等候椅</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Couch">
+		<Name>沙发</Name>
+		<Description>客厅公司 (Living Room Inc.)</Description>
+	</Furniture>
+	<Furniture Name="Radiator">
+		<Name>散热器</Name>
+		<Description>冬季终结机</Description>
+	</Furniture>
+	<Furniture Name="Ventilation">
+		<Name>换气扇</Name>
+		<Description>夏季终结机</Description>
+	</Furniture>
+	<Furniture Name="Old Computer">
+		<Name>老式电脑</Name>
+		<Description>一只手便能数尽的像素点！</Description>
+	</Furniture>
+	<Furniture Name="Modern Computer">
+		<Name>现代电脑</Name>
+		<Description>Modern computer for all your modern computer needs</Description>
+	</Furniture>
+	<Furniture Name="HoloComputer">
+		<Name>全息电脑</Name>
+		<Description>Welcome to the future! Where everything is a little less convenient</Description>
+	</Furniture>
+	<Furniture Name="Lamp">
+		<Name>灯</Name>
+		<Description>Make sure your employees can see when they are working late or if you can't be bothered placing windows</Description>
+	</Furniture>
+	<Furniture Name="Wall Lamp">
+		<Name>壁灯</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Desk Lamp">
+		<Name>台灯</Name>
+		<Description>For localized lighting improvements</Description>
+	</Furniture>
+	<Furniture Name="Floor Lamp">
+		<Name>落地灯</Name>
+		<Description>Makes light, but is also in the way</Description>
+	</Furniture>
+	<Furniture Name="Fridge">
+		<Name>冰箱</Name>
+		<Description>食物生产机</Description>
+	</Furniture>
+	<Furniture Name="Instant Coffee">
+		<Name>速溶咖啡机</Name>
+		<Description>You soak some brown powder in hot water and I guess you feel less tired at some point?</Description>
+	</Furniture>
+	<Furniture Name="Coffee">
+		<Name>咖啡机</Name>
+		<Description>Your standard ground coffee machine</Description>
+	</Furniture>
+	<Furniture Name="Espresso Machine">
+		<Name>浓缩咖啡机</Name>
+		<Description>Delivers high quality coffee by being noisy and consuming large amounts of water, electricity and maintenance</Description>
+	</Furniture>
+	<Furniture Name="Toilet">
+		<Name>厕所</Name>
+		<Description>冲水式马桶</Description>
+	</Furniture>
+	<Furniture Name="Painting">
+		<Name>油画</Name>
+		<Description>A corny painting to liven up the office</Description>
+	</Furniture>
+	<Furniture Name="TV">
+		<Name>电视</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Bookshelf">
+		<Name>书架</Name>
+		<Description>读书助你成功</Description>
+	</Furniture>
+	<Furniture Name="Floor Plant">
+		<Name>花朵盆栽</Name>
+		<Description>A charming floor plant</Description>
+	</Furniture>
+	<Furniture Name="Table Plant">
+		<Name>桌上盆栽</Name>
+		<Description>Low-poly bonsai tree</Description>
+	</Furniture>
+	<Furniture Name="Big Plant">
+		<Name>大型盆栽</Name>
+		<Description>Takes up a lot of space, but employees agree that it makes up for it by looking nice</Description>
+	</Furniture>
+	<Furniture Name="Clock">
+		<Name>时钟</Name>
+		<Description>Time machine!(Not an actual time machine)</Description>
+	</Furniture>
+	<Furniture Name="Small Server">
+		<Name>小型服务器</Name>
+		<Description>A normal computer, but with more internet</Description>
+	</Furniture>
+	<Furniture Name="Tower Server">
+		<Name>塔式服务器</Name>
+		<Description>A high performance tower(Not an actual tower)</Description>
+	</Furniture>
+	<Furniture Name="Server Rack">
+		<Name>服务器机架</Name>
+		<Description>如果一台电脑不够用...</Description>
+	</Furniture>
+	<Segment Name="Wall">
+		<Name>墙壁</Name>
+		<Description>Use this to remove windows and doors</Description>
+	</Segment>
+	<Segment Name="Standard door">
+		<Name>普通门</Name>
+		<Description>It's a door...</Description>
+	</Segment>
+	<Segment Name="Sliding glass door">
+		<Name>可滑动玻璃门</Name>
+		<Description>Door that doubles as a window</Description>
+	</Segment>
+	<Segment Name="Elevator">
+		<Name>电梯</Name>
+		<Description>Place elevators on top of each other to connect rooms on different floors</Description>
+	</Segment>
+	<Segment Name="Small window">
+		<Name>小型窗户</Name>
+		<Description>Completely useless if placed between rooms</Description>
+	</Segment>
+	<Segment Name="Large window">
+		<Name>大型窗户</Name>
+		<Description>If you want even more window</Description>
+	</Segment>
+</Furniture>
+

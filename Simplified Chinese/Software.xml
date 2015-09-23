@@ -1,0 +1,333 @@
+<Software>
+	<Software Name="Operating System">
+		<Name>操作系统</Name>
+		<Description>在 Software Inc 游戏中，操作系统是软件中规模最大的一项.
+大部分软件都需要依赖并运行于操作系统. 当有人们不再购买某一操作系统时，人们也会停止购买需要运行在该操作系统上的软件.</Description>
+		<Features>
+			<Feature Name="Terminal">
+				<Name>终端</Name>
+				<Description>终端(Terminal)是一种传统的基于文本帮助用户与操作系统之间进行交互的方式.</Description>
+			</Feature>
+			<Feature Name="GUI">
+				<Name>图形化界面</Name>
+				<Description>图形化界面(GUI - The Graphical User Interface) 允许用户真正的可视化的进行操作. 他们不必再为了一些简单行为而输入一长条命令了.</Description>
+			</Feature>
+			<Feature Name="3D rendering">
+				<Name>3D 渲染</Name>
+			</Feature>
+			<Feature Name="Keyboard input">
+				<Name>键盘输入</Name>
+				<Description>它有字母，数字和一些其他重要的东西。</Description>
+			</Feature>
+			<Feature Name="Plug'n'Play">
+				<Name>即插即用</Name>
+				<Description>即插即用(Plug'n'Play)，插在电脑上，让操作系统搞定剩下的一切。</Description>
+			</Feature>
+			<Feature Name="Multitasking">
+				<Name>多任务</Name>
+				<Description>多任务(Multitasking)，让你的用户无论何时都可以进行打开多个程序进行多项任务.</Description>
+			</Feature>
+			<Feature Name="Multithreading">
+				<Name>多线程</Name>
+				<Description>多线程(Multithreading)，让操作系统同时执行多个线程，并不断地在它们之间进行切换，提高应用程序速度，并让开发者陷入永无止境的混乱.</Description>
+			</Feature>
+			<Feature Name="Networking">
+				<Name>网络</Name>
+				<Description>你能想象到那些匿名在网上对他人进行脑残人身攻击的喷子失去了这个功能时的样子么?</Description>
+			</Feature>
+			<Feature Name="Auto-update">
+				<Name>自动更新</Name>
+				<Description>保持干掉BUG(漏洞)与恶意软件, 即便有些用户会因此损坏硬件或是陷入无限重启循环.</Description>
+			</Feature>
+			<Feature Name="64-bit">
+				<Name>64-bit</Name>
+				<Description>将寄存器的每一个位(Bit)扩宽一倍，允许处理更大的数字、管理更多内存、操作更大的文件、或让电脑帮你寻找人生的答案之类的.</Description>
+			</Feature>
+			<Feature Name="PC speaker">
+				<Name>电脑扬声器</Name>
+				<Description>满足你想要让电脑发出 “哔哔啵啵” 声的需求</Description>
+			</Feature>
+			<Feature Name="8-bit audio">
+				<Name>8-bit 音频</Name>
+			</Feature>
+			<Feature Name="HD audio">
+				<Name>HD 音频</Name>
+				<Description>就像8-bit音频，但它有更多的Bit :-)</Description>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Visual Tool">
+		<Name>可视化工具</Name>
+		<Description>可视化工具可以帮助创作者们创作视觉艺术，无论是 3D 动画还是像素绘(Pixel Art).</Description>
+		<Features>
+			<Feature Name="Image viewing">
+				<Name>图片查看</Name>
+				<Description>你必须至少能看到图像</Description>
+			</Feature>
+			<Feature Name="Image editing">
+				<Name>图片编辑</Name>
+				<Description>允许用户改变像素，这样他们就可以更好的修他们家喵星人图片</Description>
+			</Feature>
+			<Feature Name="3D editor">
+				<Name>3D 编辑器</Name>
+				<Description>这样用户就可以轻松地查看 3D 模型人是否穿内衣了</Description>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Audio Tool">
+		<Name>音频工具</Name>
+		<Description>音频工具可以录制、混音效或是创作音乐.</Description>
+		<Features>
+			<Feature Name="Audio playback">
+				<Name>音频播放</Name>
+				<Description>一部分人每天工作时不能或缺的事情</Description>
+			</Feature>
+			<Feature Name="Recording">
+				<Name>录音</Name>
+				<Description>网上K歌、线上游戏指挥还是说朋友之间语音聊天都不可或缺</Description>
+			</Feature>
+			<Feature Name="Music editor">
+				<Name>音乐编辑</Name>
+				<Description>让音乐版权变得更加廉价</Description>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Game Engine">
+		<Name>游戏引擎</Name>
+		<Description>游戏引擎是游戏的动力来源。它包含了游戏所需要的一切，除了创意。</Description>
+		<Features>
+			<Feature Name="2D rendering">
+				<Name>2D 渲染</Name>
+				<Description>满屏幕的游戏性</Description>
+			</Feature>
+			<Feature Name="Text-based">
+				<Name>基于文字</Name>
+				<Description>你玩过MUD么？</Description>
+			</Feature>
+			<Feature Name="3D rendering">
+				<Name>3D 渲染</Name>
+				<Description>让我看底裤！我要看底裤！</Description>
+			</Feature>
+			<Feature Name="PC speaker">
+				<Name>电脑扬声器</Name>
+				<Description>想想你家空调的单调声音</Description>
+			</Feature>
+			<Feature Name="8-bit audio">
+				<Name>8-bit audio</Name>
+				<Description>哔哔啵啵（想想红白机的音效）</Description>
+			</Feature>
+			<Feature Name="HD audio">
+				<Name>HD 音频</Name>
+				<Description>清晰到可以听得到幕后录音人的笑声</Description>
+			</Feature>
+			<Feature Name="Networking">
+				<Name>网络</Name>
+				<Description>听说日本人会在玩网游时排队？</Description>
+			</Feature>
+			<Feature Name="Scripting">
+				<Name>脚本化</Name>
+				<Description>其实游戏设计师是要写代码的，不过他们写的是相对简单的脚本</Description>
+			</Feature>
+			<Feature Name="Joystick support">
+				<Name>手柄支持</Name>
+				<Description>有手柄会让很多游戏玩起来更舒服，当然射击游戏除外</Description>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Game">
+		<Name>游戏</Name>
+		<Description>第九艺术</Description>
+		<Features>
+			<Feature Name="Text-based">
+				<Name>基于文字</Name>
+				<Description>玩家通关游戏，同时完成了一本小说</Description>
+			</Feature>
+			<Feature Name="2D graphics">
+				<Name>2D 图像</Name>
+				<Description>满屏幕的游戏性</Description>
+			</Feature>
+			<Feature Name="3D graphics">
+				<Name>3D 图像</Name>
+				<Description>让玩家有机会看到NPC的底裤</Description>
+			</Feature>
+			<Feature Name="Music">
+				<Name>音乐</Name>
+				<Description>这个世界上肯定也有原声集比游戏本体卖得好情况</Description>
+			</Feature>
+			<Feature Name="Dialog">
+				<Name>对话</Name>
+				<Description>你知道，Galgame么？</Description>
+			</Feature>
+			<Feature Name="Open world">
+				<Name>开放世界</Name>
+				<Description>一个更加宽阔的，可以无止境收集物品的场所</Description>
+			</Feature>
+			<Feature Name="AI">
+				<Name>AI</Name>
+				<Description>可惜NPC依然无法与玩家谈恋爱</Description>
+			</Feature>
+			<Feature Name="Multiplayer">
+				<Name>多人玩家</Name>
+				<Description>方便来自世界各地的猥琐青年年尖叫</Description>
+			</Feature>
+			<Feature Name="MMO">
+				<Name>大型多人在线</Name>
+				<Description>GM！那孙子开挂！</Description>
+			</Feature>
+			<Feature Name="Joystick support">
+				<Name>手柄支持</Name>
+				<Description>有手柄会让很多游戏玩起来更舒服，当然射击游戏除外</Description>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Webbased Game">
+		<Name>网页游戏</Name>
+		<Description>网页游戏不会拘束于任何操作系统, 但受累于无法充分利通操作系统的能力.</Description>
+		<Features>
+			<Feature Name="HTML based">
+				<Name>基于 HTML</Name>
+				<Description>卧槽！这游戏长得像Excel一样！玩起来老板看着都觉得我在工作！(吐槽Travian和OGame)</Description>
+			</Feature>
+			<Feature Name="2D graphics">
+				<Name>2D 图像</Name>
+			</Feature>
+			<Feature Name="3D graphics">
+				<Name>3D 图像</Name>
+				<Description>为你的页游增加第三维度</Description>
+			</Feature>
+			<Feature Name="Music">
+				<Name>音乐</Name>
+			</Feature>
+			<Feature Name="MMO">
+				<Name>大型多人在线</Name>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Antivirus">
+		<Name>杀毒软件</Name>
+		<Description>保护电脑不受病毒作者破坏或非法获益</Description>
+		<Features>
+			<Feature Name="File scan">
+				<Name>文件搜索</Name>
+				<Description>扫描可疑或不确定的文件</Description>
+			</Feature>
+			<Feature Name="Firewall">
+				<Name>防火墙</Name>
+				<Description>防火墙并不能保证你的电脑不受火焰的损坏</Description>
+			</Feature>
+			<Feature Name="Background scan">
+				<Name>后台扫描</Name>
+				<Description>在后台扫描文件，并搞笑的随机锁定文件</Description>
+			</Feature>
+			<Feature Name="Mail scan">
+				<Name>邮件扫描</Name>
+				<Description>这里总有更大的空间</Description>
+			</Feature>
+			<Feature Name="Virus database">
+				<Name>病毒数据库</Name>
+				<Description>自动保持你的用户刷新对病毒的定义</Description>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Logistics Application">
+		<Name>逻辑软件</Name>
+		<Description></Description>
+		<Features>
+			<Feature Name="Commandline">
+				<Name>命令行</Name>
+				<Description>rm -rf /</Description>
+			</Feature>
+			<Feature Name="GUI">
+				<Name>图形化用户界面</Name>
+				<Description>无论何时都会给你 “是” 与 “否” 的选择</Description>
+			</Feature>
+			<Feature Name="Database">
+				<Name>数据库</Name>
+				<Description>drop database user;</Description>
+			</Feature>
+			<Feature Name="Third-party integration">
+				<Name>第三方接入</Name>
+				<Description>你们想到一群狐狸围在一直狐狸身上交尾的图了么</Description>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Website">
+		<Name>网页</Name>
+		<Description></Description>
+		<Features>
+			<Feature Name="Static pages">
+				<Name>静态页面</Name>
+				<Description>HTML其实是How to make love的意思</Description>
+			</Feature>
+			<Feature Name="Image gallery">
+				<Name>图片展示</Name>
+				<Description>没图你说个XX</Description>
+			</Feature>
+			<Feature Name="Dynamic pages">
+				<Name>动态网页</Name>
+				<Description>PHP是世界上最好的编程语言</Description>
+			</Feature>
+			<Feature Name="Store">
+				<Name>商店</Name>
+				<Description>F码抢购通道其实只是程序员随便用图片拼起来假系统</Description>
+			</Feature>
+			<Feature Name="Database">
+				<Name>数据库</Name>
+				<Description>把用户的密码明文保存在这里</Description>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Game Assets">
+		<Name>游戏素材</Name>
+		<Description></Description>
+		<Features>
+			<Feature Name="2D art">
+				<Name>2D 美术</Name>
+			</Feature>
+			<Feature Name="User interface graphics">
+				<Name>用户界面</Name>
+			</Feature>
+			<Feature Name="Sound effects">
+				<Name>音效</Name>
+			</Feature>
+			<Feature Name="Music">
+				<Name>音乐</Name>
+			</Feature>
+			<Feature Name="Written Dialogue">
+				<Name>书面对话</Name>
+			</Feature>
+			<Feature Name="3D models">
+				<Name>3D 模型</Name>
+			</Feature>
+		</Features>
+	</Software>
+	<Software Name="Embedded System">
+		<Name>嵌入式系统</Name>
+		<Description>从小家电到车载系统</Description>
+		<Features>
+			<Feature Name="Clock">
+				<Name>时钟</Name>
+			</Feature>
+			<Feature Name="Thermostat">
+				<Name>调温器</Name>
+				<Description>Thermostat</Description>
+			</Feature>
+			<Feature Name="Motor">
+				<Name>马达</Name>
+			</Feature>
+			<Feature Name="User interface">
+				<Name>用户界面</Name>
+			</Feature>
+			<Feature Name="GPS">
+				<Name>GPS</Name>
+			</Feature>
+			<Feature Name="Networking">
+				<Name>网络</Name>
+			</Feature>
+		</Features>
+	</Software>
+	<Feature Name="QA">
+		<Name>QA</Name>
+		<Description>使用 QA(Quality Assurance - 质量保证) 流程来发布更加稳定的版本，或是在你的客户因为BUG(漏洞)急的抓头发时修复它们。</Description>
+	</Feature>
+</Software>
