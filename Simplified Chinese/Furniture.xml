@@ -28,12 +28,12 @@
 		<Description>客厅公司 (Living Room Inc.)</Description>
 	</Furniture>
 	<Furniture Name="Small Heater">
-		<Name>Small Heater</Name>
-		<Description>Humble heating unit for your basic office needs</Description>
+		<Name>小型加热器</Name>
+		<Description>满足基本办公需求的简陋加热设备</Description>
 	</Furniture>
 	<Furniture Name="Ceiling Fan">
-		<Name>Ceiling Fan</Name>
-		<Description>Nifty ceiling fan, which not only looks cool, but also cools down the room! May cause noise pollution.</Description>
+		<Name>吊扇</Name>
+		<Description>漂亮的吊扇，不仅看起来很酷，也能给房间降温，但可能会产生噪音污染</Description>
 	</Furniture>
 	<Furniture Name="Radiator">
 		<Name>散热器</Name>
@@ -44,12 +44,12 @@
 		<Description>夏季终结机</Description>
 	</Furniture>
 	<Furniture Name="Central Heating">
-		<Name>Central Heating</Name>
-		<Description>Industrial strength central heating unit to heat up entire buildings. Very noisy and very ugly.</Description>
+		<Name>集中供暖</Name>
+		<Description>工业级集中供暖设备，可以加温整个建筑，但非常吵闹和难看。</Description>
 	</Furniture>
 	<Furniture Name="AC Unit">
-		<Name>AC Unit</Name>
-		<Description>Industrial strength air conditioning unit to cool down entire building complexes. Extremely noisy and ugly, and has to be placed above ground.</Description>
+		<Name>空调</Name>
+		<Description>工业级空调设备，可以对整个建筑群降温，但非常吵闹和难看，且必须放置于地面</Description>
 	</Furniture>
 	<Furniture Name="Old Computer">
 		<Name>老式电脑</Name>
@@ -73,11 +73,11 @@
 	</Furniture>
 	<Furniture Name="Desk Lamp">
 		<Name>台灯</Name>
-		<Description>For localized lighting improvements</Description>
+		<Description>提升局部照明能力</Description>
 	</Furniture>
 	<Furniture Name="Floor Lamp">
 		<Name>落地灯</Name>
-		<Description>Makes light, but is also in the way</Description>
+		<Description>提供照明，但会挡道</Description>
 	</Furniture>
 	<Furniture Name="Fridge">
 		<Name>冰箱</Name>
@@ -112,7 +112,7 @@
 		<Description>读书助你成功</Description>
 	</Furniture>
 	<Furniture Name="Reception desk">
-		<Name>Reception desk</Name>
+		<Name>服务台</Name>
 		<Description></Description>
 	</Furniture>
 	<Furniture Name="Floor Plant">
@@ -152,8 +152,8 @@
 		<Description>一扇两面都是窗户的门</Description>
 	</Segment>
 	<Segment Name="Double doors">
-		<Name>Double doors</Name>
-		<Description>More doors per door purchase</Description>
+		<Name>双开门</Name>
+		<Description>这种门要买多扇门面</Description>
 	</Segment>
 	<Segment Name="Small window">
 		<Name>小型窗户</Name>
@@ -164,7 +164,7 @@
 		<Description>如果你想要一个更大的窗户</Description>
 	</Segment>
 	<Segment Name="Wide window">
-		<Name>Wide window</Name>
-		<Description>For the widescreen experience</Description>
+		<Name>宽窗</Name>
+		<Description>仿佛宽屏体验</Description>
 	</Segment>
 </Furniture>
