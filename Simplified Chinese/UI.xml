@@ -1203,4 +1203,8 @@
 增加温度调节器并注意窗户的泄露</Item>
 		<Item Name="TemperatureOveruse">温度调节装置已经撑不住了，请为建筑群添加更多温度调节装置</Item>
 	</Alpha6.18>
+	<Alpha6.21>
+		<Item Name="Selection">选定</Item>
+		<Item Name="Select multiple">多选</Item>
+	</Alpha6.21>
 </UI>

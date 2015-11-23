@@ -1203,5 +1203,9 @@ Pension per employee: {2}</Item>
 Add temperature regulators and remember windows leak</Item>
 		<Item Name="TemperatureOveruse">A temperature regulation unit is overburdened. Please add more regulation units to the building complex.</Item>
 	</Alpha6.18>
+	<Alpha6.21>
+		<Item Name="Selection">Selection</Item>
+		<Item Name="Select multiple">Select multiple</Item>
+	</Alpha6.21>
 </UI>
 
