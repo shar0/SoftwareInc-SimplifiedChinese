@@ -2,8 +2,6 @@
 
 I need tell you true, "Software Inc." is a Video Game.
 
-简体中文用户请查看 [汉语说明](README_CN.md)
-
 ## Installation
 
 Put `Simplified Chinese` folder to the sub-folder `Localization` on your game main folder.
