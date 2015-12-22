@@ -1,6 +1,6 @@
 # Software Inc. 中文翻译
 
-我得告诉你，"Software Inc."（软件公司）是一款游戏.
+嗯，其实"Software Inc."（软件公司）是一款游戏.
 
 [English Document](README.md)
 
@@ -39,4 +39,4 @@
 
 ## 有问题么？
 
-在 [Github Issue](https://github.com/TomomiSawako/SoftwareInc-SimplifiedChinese/issues) 向我提交反馈
+在 [Github Issue](https://github.com/TomomiSawako/SoftwareInc-SimplifiedChinese/issues) 提交反馈
