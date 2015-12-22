@@ -2,6 +2,8 @@
 
 我得告诉你，"Software Inc."（软件公司）是一款游戏.
 
+[English Document](README.md)
+
 ## 安装
 
 把 `Simplified Chinese` 文件夹放到游戏主目录的 `Localization` 文件夹下。
