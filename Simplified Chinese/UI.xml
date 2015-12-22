@@ -525,8 +525,6 @@
 增加门或电梯</Item>
 		<Item Name="PublicToiletWarning">员工们并不想在公共环境如厕
 间隔房间来区分出厕所单间</Item>
-		<Item Name="RoomTempratureWarning">这间房间的室温非常不稳定
-增加散热器和换气扇</Item>
 		<Item Name="RoomOvercrowdWarning">这间房间有太多的电脑
 拥挤的房间会让员工分心</Item>
 		<Item Name="RoomLighingWaning">这里没有足够的亮光
@@ -1131,4 +1129,82 @@
 		<Item Name="Tundra">苔原</Item>
 		<Item Name="Paused">暂停</Item>
 	</Alpha5.4>
+	<Alpha6>
+		<Item Name="ActionDismantle">拆除</Item>
+		<Item Name="Dismantle">拆除</Item>
+		<Item Name="DismantleMsg">你确定要拆除 {0} 墙体?</Item>
+		<Item Name="DismantleMsg2">拆除 {0} 墙体</Item>
+		<Item Name="WallSegments">墙体</Item>
+		<Item Name="AngleSnapDesc">更改家具拍摄角度</Item>
+		<Item Name="DoubleGridSize">加倍网格大小</Item>
+		<Item Name="HalveGridSize">减半网格大小</Item>
+		<Item Name="ChangeGridAnchor">网格化世界对象</Item>
+		<Item Name="ResetGrid">重置网格</Item>
+		<Item Name="ActionMergeRooms">合并房间</Item>
+		<Item Name="Turn furniture clockwise">顺时针旋转家具</Item>
+		<Item Name="Turn furniture counter clockwise">逆时针选专家局</Item>
+		<Item Name="Grid">网格</Item>
+		<Item Name="ActionSelectWall">选择整个墙体</Item>
+		<Item Name="ActionDuplicate">复制</Item>
+		<Item Name="RoomAngleError">墙体角度必须大于30°</Item>
+		<Item Name="RoomNarrowError">墙体间距必须大于1.0个单位</Item>
+		<Item Name="RoomIntersectError">墙体不能交叉</Item>
+		<Item Name="RoomInsideError">你不能在房间外围建造房间</Item>
+		<Item Name="FurnitureSnapError">必须放置在指定的点上</Item>
+		<Item Name="RoomInRoomError">你不能再房间內嵌套建造房间</Item>
+		<Item Name="Construct rectangle room">建造长方形房间</Item>
+		<Item Name="CorruptSaveFile">
+存档文件已经损坏.
+可能来自已经不支持的老版本游戏.</Item>
+	</Alpha6>
+	<Alpha6.4>
+		<Item Name="DynamicSegmentHint">按住拖动进行缩放</Item>
+	</Alpha6.4>
+	<Alpha6.5>
+		<Item Name="RotateFurnHint2">按住拖动以旋转家具
+也可以按下 {0} 或 {1}</Item>
+		<Item Name="Delete">删除</Item>
+		<Item Name="DeleteSaveConf">你去顶要删除这个存档文件吗?
+删除后无法恢复!</Item>
+		<Item Name="DeleteFail">无法删除存档文件
+请确认你有删除这个文件的权限</Item>
+		<Item Name="AskMarketingOption">Ask about marketing on release</Item>
+	</Alpha6.5>
+	<Alpha6.11>
+		<Item Name="Overall skill">整体技术</Item>
+		<Item Name="Skill interview">技术面试</Item>
+		<Item Name="Specialization interview">专业面试</Item>
+		<Item Name="Personality interview">性格面试</Item>
+		<Item Name="SSAA">SSAA</Item>
+		<Item Name="SSAAHint">超采样抗锯齿用两倍分辨率渲染游戏，使得边缘尽可能地光滑</Item>
+		<Item Name="Event">事件</Item>
+		<Item Name="InsuranceDescription">每位雇员的人寿保险: {0}
+每位雇员的健康保险: {1}
+每位雇员的养老金: {2}</Item>
+		<Item Name="Payments">缴纳</Item>
+		<Item Name="Employee">雇员</Item>
+	</Alpha6.11>
+	<Alpha6.12>
+		<Item Name="Loans">贷款</Item>
+	</Alpha6.12>
+	<Alpha6.13>
+		<Item Name="KeyBindingHint">按任意键...</Item>
+		<Item Name="Context menu">快捷菜单</Item>
+		<Item Name="Rotate camera">旋转镜头</Item>
+	</Alpha6.13>
+	<Alpha6.14>
+		<Item Name="Segment">构件</Item>
+	</Alpha6.14>
+	<Alpha6.18>
+		<Item Name="SaveDeletedError">找不到该存档文件，将从列表删除</Item>
+		<Item Name="ExteriorWallFurn">必须放置在外墙</Item>
+		<Item Name="BasementFurnError">该家具不能放在地下室</Item>
+		<Item Name="RoomTempratureWarning2">这间房间的室温非常不稳定
+增加温度调节器并注意窗户的泄露</Item>
+		<Item Name="TemperatureOveruse">温度调节装置已经撑不住了，请为建筑群添加更多温度调节装置</Item>
+	</Alpha6.18>
+	<Alpha6.21>
+		<Item Name="Selection">选定</Item>
+		<Item Name="Select multiple">多选</Item>
+	</Alpha6.21>
 </UI>

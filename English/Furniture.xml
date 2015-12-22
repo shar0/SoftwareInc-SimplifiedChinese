@@ -1,0 +1,171 @@
+<Furniture>
+	<Furniture Name="Elevator">
+		<Name>Elevator</Name>
+		<Description>Place elevators on top of eachother to connect rooms on different floors</Description>
+	</Furniture>
+	<Furniture Name="Table">
+		<Name>Table</Name>
+		<Description>Put stuff on it and chairs around it</Description>
+	</Furniture>
+	<Furniture Name="Glass Table">
+		<Name>Glass Table</Name>
+		<Description>Enjoy the view of your feet while you work</Description>
+	</Furniture>
+	<Furniture Name="Cheap Chair">
+		<Name>Cheap Chair</Name>
+		<Description>Uncomfortable plastic chair</Description>
+	</Furniture>
+	<Furniture Name="Office Chair">
+		<Name>Office Chair</Name>
+		<Description>Nice polstered chair, no wheels though</Description>
+	</Furniture>
+	<Furniture Name="Waiting Chairs">
+		<Name>Waiting Chairs</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Couch">
+		<Name>Couch</Name>
+		<Description>Living Room Inc.</Description>
+	</Furniture>
+	<Furniture Name="Small Heater">
+		<Name>Small Heater</Name>
+		<Description>Humble heating unit for your basic office needs</Description>
+	</Furniture>
+	<Furniture Name="Ceiling Fan">
+		<Name>Ceiling Fan</Name>
+		<Description>Nifty ceiling fan, which not only looks cool, but also cools down the room! May cause noise pollution.</Description>
+	</Furniture>
+	<Furniture Name="Radiator">
+		<Name>Radiator</Name>
+		<Description>Runs on expensive district heating, but is a lot more effective than a small heater.</Description>
+	</Furniture>
+	<Furniture Name="Ventilation">
+		<Name>Ventilation</Name>
+		<Description>Small ventilation unit that takes air directly from the other side of a wall. Can be cranked up to super cool rooms with servers.</Description>
+	</Furniture>
+	<Furniture Name="Central Heating">
+		<Name>Central Heating</Name>
+		<Description>Industrial strength central heating unit to heat up entire buildings. Very noisy and very ugly.</Description>
+	</Furniture>
+	<Furniture Name="AC Unit">
+		<Name>AC Unit</Name>
+		<Description>Industrial strength air conditioning unit to cool down entire building complexes. Extremely noisy and ugly, and has to be placed above ground.</Description>
+	</Furniture>
+	<Furniture Name="Old Computer">
+		<Name>Old Computer</Name>
+		<Description>More pixels than you can count on one hand!</Description>
+	</Furniture>
+	<Furniture Name="Modern Computer">
+		<Name>Modern Computer</Name>
+		<Description>Modern computer for all your modern computer needs</Description>
+	</Furniture>
+	<Furniture Name="HoloComputer">
+		<Name>HoloComputer</Name>
+		<Description>Welcome to the future! Where everything is a little less convenient</Description>
+	</Furniture>
+	<Furniture Name="Lamp">
+		<Name>Lamp</Name>
+		<Description>Make sure your employees can see when they are working late or if you can't be bothered placing windows</Description>
+	</Furniture>
+	<Furniture Name="Wall Lamp">
+		<Name>Wall Lamp</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Desk Lamp">
+		<Name>Desk Lamp</Name>
+		<Description>For localized lighting improvements</Description>
+	</Furniture>
+	<Furniture Name="Floor Lamp">
+		<Name>Floor Lamp</Name>
+		<Description>Makes light, but is also in the way</Description>
+	</Furniture>
+	<Furniture Name="Fridge">
+		<Name>Fridge</Name>
+		<Description>Food generator</Description>
+	</Furniture>
+	<Furniture Name="Instant Coffee">
+		<Name>Instant Coffee</Name>
+		<Description>You soak some brown powder in hot water and I guess you feel less tired at some point?</Description>
+	</Furniture>
+	<Furniture Name="Coffee">
+		<Name>Coffee</Name>
+		<Description>Your standard ground coffee machine</Description>
+	</Furniture>
+	<Furniture Name="Espresso Machine">
+		<Name>Espresso Machine</Name>
+		<Description>Delivers high quality coffee by being noisy and consuming large amounts of water, electricity and maintenance</Description>
+	</Furniture>
+	<Furniture Name="Toilet">
+		<Name>Toilet</Name>
+		<Description>Poop machine</Description>
+	</Furniture>
+	<Furniture Name="Painting">
+		<Name>Painting</Name>
+		<Description>A corny painting to liven up the office</Description>
+	</Furniture>
+	<Furniture Name="TV">
+		<Name>TV</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Bookshelf">
+		<Name>Bookshelf</Name>
+		<Description>Complete with books!</Description>
+	</Furniture>
+	<Furniture Name="Reception desk">
+		<Name>Reception desk</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Floor Plant">
+		<Name>Floor Plant</Name>
+		<Description>A charming floor plant</Description>
+	</Furniture>
+	<Furniture Name="Table Plant">
+		<Name>Table Plant</Name>
+		<Description>Low-poly bonsai tree</Description>
+	</Furniture>
+	<Furniture Name="Big Plant">
+		<Name>Big Plant</Name>
+		<Description>Takes up a lot of space, but employees agree that it makes up for it by looking nice</Description>
+	</Furniture>
+	<Furniture Name="Clock">
+		<Name>Clock</Name>
+		<Description>Time machine!(Not an actual time machine)</Description>
+	</Furniture>
+	<Furniture Name="Small Server">
+		<Name>Small Server</Name>
+		<Description>A normal computer, but with more internet</Description>
+	</Furniture>
+	<Furniture Name="Tower Server">
+		<Name>Tower Server</Name>
+		<Description>A high performance tower(Not an actual tower)</Description>
+	</Furniture>
+	<Furniture Name="Server Rack">
+		<Name>Server Rack</Name>
+		<Description>If one computer is not enough</Description>
+	</Furniture>
+	<Segment Name="Standard door">
+		<Name>Standard door</Name>
+		<Description>It's a door...</Description>
+	</Segment>
+	<Segment Name="Sliding glass door">
+		<Name>Sliding glass door</Name>
+		<Description>Door that doubles as a window</Description>
+	</Segment>
+	<Segment Name="Double doors">
+		<Name>Double doors</Name>
+		<Description>More doors per door purchase</Description>
+	</Segment>
+	<Segment Name="Small window">
+		<Name>Small window</Name>
+		<Description>Completely useless if placed between rooms</Description>
+	</Segment>
+	<Segment Name="Large window">
+		<Name>Large window</Name>
+		<Description>If you want even more window</Description>
+	</Segment>
+	<Segment Name="Wide window">
+		<Name>Wide window</Name>
+		<Description>For the widescreen experience</Description>
+	</Segment>
+</Furniture>
+

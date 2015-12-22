@@ -1,4 +1,8 @@
 <Furniture>
+	<Furniture Name="Elevator">
+		<Name>电梯</Name>
+		<Description>在不同楼层的顶部放置电梯来连接不同楼层间的房间</Description>
+	</Furniture>
 	<Furniture Name="Table">
 		<Name>桌子</Name>
 		<Description>可以放置东西，并将椅子放在周围</Description>
@@ -23,6 +27,14 @@
 		<Name>沙发</Name>
 		<Description>客厅公司 (Living Room Inc.)</Description>
 	</Furniture>
+	<Furniture Name="Small Heater">
+		<Name>小型加热器</Name>
+		<Description>满足基本办公需求的简陋加热设备</Description>
+	</Furniture>
+	<Furniture Name="Ceiling Fan">
+		<Name>吊扇</Name>
+		<Description>漂亮的吊扇，不仅看起来很酷，也能给房间降温，但可能会产生噪音污染</Description>
+	</Furniture>
 	<Furniture Name="Radiator">
 		<Name>散热器</Name>
 		<Description>冬季终结机</Description>
@@ -30,6 +42,14 @@
 	<Furniture Name="Ventilation">
 		<Name>换气扇</Name>
 		<Description>夏季终结机</Description>
+	</Furniture>
+	<Furniture Name="Central Heating">
+		<Name>集中供暖</Name>
+		<Description>工业级集中供暖设备，可以加温整个建筑，但非常吵闹和难看。</Description>
+	</Furniture>
+	<Furniture Name="AC Unit">
+		<Name>空调</Name>
+		<Description>工业级空调设备，可以对整个建筑群降温，但非常吵闹和难看，且必须放置于地面</Description>
 	</Furniture>
 	<Furniture Name="Old Computer">
 		<Name>老式电脑</Name>
@@ -53,11 +73,11 @@
 	</Furniture>
 	<Furniture Name="Desk Lamp">
 		<Name>台灯</Name>
-		<Description>For localized lighting improvements</Description>
+		<Description>提升局部照明能力</Description>
 	</Furniture>
 	<Furniture Name="Floor Lamp">
 		<Name>落地灯</Name>
-		<Description>Makes light, but is also in the way</Description>
+		<Description>提供照明，但会挡道</Description>
 	</Furniture>
 	<Furniture Name="Fridge">
 		<Name>冰箱</Name>
@@ -91,6 +111,10 @@
 		<Name>书架</Name>
 		<Description>读书助你成功</Description>
 	</Furniture>
+	<Furniture Name="Reception desk">
+		<Name>服务台</Name>
+		<Description></Description>
+	</Furniture>
 	<Furniture Name="Floor Plant">
 		<Name>置地盆景</Name>
 		<Description>一颗迷人的置地盆景</Description>
@@ -119,10 +143,6 @@
 		<Name>服务器机架</Name>
 		<Description>如果一台电脑不够用...</Description>
 	</Furniture>
-	<Segment Name="Wall">
-		<Name>墙壁</Name>
-		<Description>用这个来消除门、窗</Description>
-	</Segment>
 	<Segment Name="Standard door">
 		<Name>普通门</Name>
 		<Description>这是 M·E·N - 门...</Description>
@@ -131,9 +151,9 @@
 		<Name>可滑动玻璃门</Name>
 		<Description>一扇两面都是窗户的门</Description>
 	</Segment>
-	<Segment Name="Elevator">
-		<Name>电梯</Name>
-		<Description>放置电梯，并在不同楼层的其顶部放置新的电梯来连接不同楼层间的房间</Description>
+	<Segment Name="Double doors">
+		<Name>双开门</Name>
+		<Description>这种门要买多扇门面</Description>
 	</Segment>
 	<Segment Name="Small window">
 		<Name>小型窗户</Name>
@@ -142,5 +162,9 @@
 	<Segment Name="Large window">
 		<Name>大型窗户</Name>
 		<Description>如果你想要一个更大的窗户</Description>
+	</Segment>
+	<Segment Name="Wide window">
+		<Name>宽窗</Name>
+		<Description>仿佛宽屏体验</Description>
 	</Segment>
 </Furniture>
