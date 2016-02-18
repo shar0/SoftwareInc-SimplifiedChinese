@@ -2,7 +2,7 @@
 
 嗯，其实"Software Inc."（软件公司）是一款游戏.
 
-[English Document](README.md)
+[English Document](README_EN.md)
 
 ## 安装
 
